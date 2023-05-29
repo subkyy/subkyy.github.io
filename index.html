@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+      integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ=="
+      crossorigin="anonymous"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>My Portfolio | muhammad subki</title>
+  </head>
+  <body id="home">
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="asset/Krem Minimalis Ucapan Selamat Hari Raya Idul Fitri 1444 H Cerita Instagram .png" alt="Sandhika Galih" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4"></h1>
+      <p class="lead">Lecturer | Content Creator</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,192L60,202.7C120,213,240,235,360,218.7C480,203,600,149,720,138.7C840,128,960,160,1080,176C1200,192,1320,192,1380,192L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+      </svg>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col" data-aos="fade-down">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4" data-aos="fade-right">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure mollitia voluptatum corrupti sint delectus facilis pariatur recusandae! Eveniet, iure debitis?</p>
+          </div>
+          <div class="col-md-4" data-aos="fade-left">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quibusdam animi odit unde sequi voluptatibus quo rem perferendis eos, numquam in porro cumque a hic!</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f9f6f2" fill-opacity="0.99" d="M0,320L1440,288L1440,320L0,320Z"></path></svg>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>TEMA UNDANGAN</h2>
+          </div>
+        </div>
+        
+        <!-- list daftar tema -->
+        <div class="text-center">
+          <div class="btn-group row" role="group" aria-label="Button group">
+            <div class="col-4">
+              <a type="button" class="btn btn-outline-secondary btn-sm rounded-pill mx-1" href="#tema1" role="button" style="width: 95px;">POPULER</a>
+            </div>
+            <div class="col-4">
+              <a type="button" class="btn btn-outline-secondary btn-sm rounded-pill mx-1" href="#tema2" role="button" style="width: 95px;">ELEGANT</a>
+            </div>
+            <div class="col-4">
+              <a type="button" class="btn btn-outline-secondary btn-sm rounded-pill mx-1" href="#tema3" role="button" style="width: 95px;">CLASIC</a>
+            </div>
+          </div>
+        </div>
+        <!-- last of list daftar tema -->
+            
+        <!-- tema bagian 1 -->
+        <div id="tema1">
+          <div class="container py-5">
+            <h1 class="text-center">TEMA POPULER</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+              
+              <!-- card 1 -->
+              <div class="col" data-aos="flip-right" data-aos-delay="500">
+                <div class="card">
+                  <img src="asset/kece8.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <div class="d-grid gap-2 mb-1">
+                      <a class="btn testing mb-1 text-light" role="button" href="https://demo.invee.net/?template=floral-5" style="background-color: #a67b5b;"><i class="bi bi-eye"></i><span class="ms-2">Lihat Contoh</span></a>
+                    </div>
+                  </div>
+                  <h5 class="card-title text-center mb-4">FLORAL THEME 1</h5>
+                  <div class="mb-3 d-flex justify-content-around">
+                    <h3 class="">Rp. 99.000</h3>
+                    <button class="btn buy-product text-light" onclick="beli('hallo kak mau pesan undangan', 'floral theme 1')"><i class="bi bi-whatsapp"></i> Pesan</button>
+                  </div>
+                </div>
+              </div>
+              <!-- end of card 1 -->
+
+              <!-- card ke 2 -->
+              <div class="col" data-aos="flip-right" data-aos-delay="500">
+                <div class="card"> 
+                  <img src="asset/kece11.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <div class="d-grid gap-2 mb-1">
+                      <a class="btn testing mb-1 text-light" role="button" href="https://demo.invee.net/?template=floral-3" style="background-color: #a67b5b;"><i class="bi bi-eye"></i><span class="ms-2">Lihat Contoh</span></a>
+                    </div>
+                  </div>
+                  <h5 class="card-title text-center mb-4">FLORAL THEME 2</h5>
+                  <div class="mb-3 d-flex justify-content-around">
+                    <h3 class="">Rp. 99.000</h3>
+                    <button class="btn buy-product text-light" onclick="beli('hallo kak mau pesan undangan', 'floral theme 2')"><i class="bi bi-whatsapp"></i> Pesan</button>
+                  </div>
+                </div>
+              </div>
+              <!-- end of card 2 -->
+
+              <!-- card ke 3 -->
+              <div class="col" data-aos="flip-right" data-aos-delay="500">
+                <div class="card">
+                  <img src="asset/kece1.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <div class="d-grid gap-2 mb-1">
+                      <a class="btn testing mb-1 text-light" role="button" href="https://demo.invee.net/?template=floral-2" style="background-color: #a67b5b;"><i class="bi bi-eye"></i><span class="ms-2">Lihat Contoh</span></a>
+                    </div>
+                  </div>
+                  <h5 class="card-title text-center mb-4">FLORAL THEME 3</h5>
+                  <div class="mb-3 d-flex justify-content-around">
+                    <h3 class="">Rp. 99.000</h3>
+                    <button class="btn buy-product text-light" onclick="beli('hallo kak mau pesan undangan', 'floral theme 3')"><i class="bi bi-whatsapp"></i> Pesan</button>
+                  </div>
+                </div>
+              </div>
+              <!-- end of card 3 -->
+
+              <!-- card ke 4 -->
+              <div class="col" data-aos="flip-right" data-aos-delay="500">
+                <div class="card">
+                  <img src="asset/kece2.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <div class="d-grid gap-2 mb-1">
+                      <a class="btn testing mb-1 text-light" role="button" href="https://demo.invee.net/?template=floral-6" style="background-color: #a67b5b;"><i class="bi bi-eye"></i><span class="ms-2">Lihat Contoh</span></a>
+                    </div>
+                  </div>
+                  <h5 class="card-title text-center mb-4">FLORAL THEME 4</h5>
+                  <div class="mb-3 d-flex justify-content-around">
+                    <h3 class="">Rp. 99.000</h3>
+                    <button class="btn buy-product text-light" onclick="beli('hallo kak mau pesan undangan', 'floral theme 4')"><i class="bi bi-whatsapp"></i> Pesan</button>
+                  </div>
+                </div>
+              </div>
+              <!-- end of card 4 -->
+
+              <!-- card ke 5 -->
+              <div class="col" data-aos="flip-right" data-aos-delay="500">
+                <div class="card">
+                  <img src="asset/kece7.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <div class="d-grid gap-2 mb-1">
+                      <a class="btn testing mb-1 text-light" role="button" href="https://demo.invee.net/?template=traditional-1" style="background-color: #a67b5b;"><i class="bi bi-eye"></i><span class="ms-2">Lihat Contoh</span></a>
+                    </div>
+                  </div>
+                  <h5 class="card-title text-center mb-4">TRADISIONAL THEME 1</h5>
+                  <div class="mb-3 d-flex justify-content-around">
+                    <h3 class="">Rp. 99.000</h3>
+                    <button class="btn buy-product text-light" onclick="beli('hallo kak mau pesan undangan', 'tradisional 1')"><i class="bi bi-whatsapp"></i> Pesan</button>
+                  </div>
+                </div>
+              </div>
+              <!-- end of card 5 -->
+
+              <!-- card ke 6 -->
+              <div class="col" data-aos="flip-right" data-aos-delay="500">
+                <div class="card">
+                  <img src="asset/kece4.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <div class="d-grid gap-2 mb-1">
+                      <a class="btn testing mb-1 text-light" role="button" href="https://demo.invee.net/?template=minimalist-2" style="background-color: #a67b5b;"><i class="bi bi-eye"></i><span class="ms-2">Lihat Contoh</span></a>
+                    </div>
+                  </div>
+                  <h5 class="card-title text-center mb-4">MINIMALIS THEME 1</h5>
+                  <div class="mb-3 d-flex justify-content-around">
+                    <h3 class="">Rp. 99.000</h3>
+                    <button class="btn buy-product text-light" onclick="beli('hallo kak mau pesan undangan', 'minimalist 1')"><i class="bi bi-whatsapp"></i> Pesan</button>
+                  </div>
+                </div>
+              </div>
+              <!-- end of card 6 -->
+        </div>
+        </div>
+      </div>
+      <!-- last tema bagian 1 -->
+
+
+      <!-- tema bagian 2 -->
+      <div id="tema2">
+        <div class="container py-5">
+          <h1 class="text-center">TEMA ELEGANT</h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+            
+             <!-- card ke 1 -->
+            <div class="col" data-aos="flip-right" data-aos-delay="500">
+              <div class="card">
+                <img src="asset/kece6.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <div class="d-grid gap-2 mb-1">
+                    <a class="btn testing mb-1 text-light" role="button" href="https://demo.invee.net/?template=elegant-1" style="background-color: #a67b5b;"><i class="bi bi-eye"></i><span class="ms-2">Lihat Contoh</span></a>
+                  </div>
+                </div>
+                <h5 class="card-title text-center mb-4">ELEGANT THEME 1</h5>
+                <div class="mb-3 d-flex justify-content-around">
+                  <h3 class="">Rp. 99.000</h3>
+                 <button class="btn buy-product text-light" onclick="beli('hallo kak mau pesan undangan', 'elegant theme 1')"><i class="bi bi-whatsapp"></i> Pesan</button>
+                </div>
+              </div>
+            </div>
+             <!-- end of card 1 -->
+
+             <!-- card ke 2 -->
+            <div class="col" data-aos="flip-right" data-aos-delay="500">
+              <div class="card">
+                <img src="asset/kece5.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <div class="d-grid gap-2 mb-1">
+                    <a class="btn testing mb-1 text-light" role="button" href="https://demo.invee.net/?template=minimalist-3" style="background-color: #a67b5b;"><i class="bi bi-eye"></i><span class="ms-2">Lihat Contoh</span></a>
+                  </div>
+                </div>
+                <h5 class="card-title text-center mb-4">MINIMALIST THEME 2</h5>
+                <div class="mb-3 d-flex justify-content-around">
+                  <h3 class="">Rp. 99.000</h3>
+                 <button class="btn buy-product text-light" onclick="beli('hallo kak mau pesan undangan', 'minimalist theme 2')"><i class="bi bi-whatsapp"></i> Pesan</button>
+                </div>
+              </div>
+            </div>
+             <!-- end of card 2 -->
+
+             <!-- card ke 3 -->
+            <div class="col" data-aos="flip-right" data-aos-delay="500">
+              <div class="card">
+                <img src="asset/kece9.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <div class="d-grid gap-2 mb-1">
+                   <a class="btn testing mb-1 text-light" role="button" href="https://demo.invee.net/?template=minimalist-4" style="background-color: #a67b5b;"><i class="bi bi-eye"></i><span class="ms-2">Lihat Contoh</span></a>
+                  </div>
+                </div>
+                <h5 class="card-title text-center mb-4">MINIMALIST THEME 3</h5>
+                <div class="mb-3 d-flex justify-content-around">
+                  <h3 class="">Rp. 99.000</h3>
+                 <button class="btn buy-product text-light" onclick="beli('hallo kak mau pesan undangan', 'minimalist theme 3')"><i class="bi bi-whatsapp"></i> Pesan</button>
+                </div>
+              </div>
+            </div>
+             <!-- end of card 3 -->
+
+             <!-- card ke 4 -->
+            <div class="col" data-aos="flip-right" data-aos-delay="500">
+              <div class="card">
+                <img src="asset/kece14.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <div class="d-grid gap-2 mb-1">
+                   <a class="btn testing mb-1 text-light" role="button" href="https://demo.invee.net/?template=traditional-3" style="background-color: #a67b5b;"><i class="bi bi-eye"></i><span class="ms-2">Lihat Contoh</span></a>
+                  </div>
+                </div>
+                <h5 class="card-title text-center mb-4">TRADISIONAL THEME 2</h5>
+                <div class="mb-3 d-flex justify-content-around">
+                  <h3 class="">Rp. 99.000</h3>
+                 <button class="btn buy-product text-light" onclick="beli('hallo kak mau pesan undangan', 'tradisional theme 2')"><i class="bi bi-whatsapp"></i> Pesan</button>
+                </div>
+              </div>
+            </div>
+             <!-- end of card 4 -->
+
+             <!-- card ke 5 -->
+            <div class="col" data-aos="flip-right" data-aos-delay="500">
+              <div class="card">
+                <img src="asset/kece10.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <div class="d-grid gap-2 mb-1">
+                   <a class="btn testing mb-1 text-light" role="button" href="https://demo.invee.net/?template=minimalist-5" style="background-color: #a67b5b;"><i class="bi bi-eye"></i><span class="ms-2">Lihat Contoh</span></a>
+                  </div>
+                </div>
+                <h5 class="card-title text-center mb-4">MINIMALIST THEME 4</h5>
+                <div class="mb-3 d-flex justify-content-around">
+                  <h3 class="">Rp. 99.000</h3>
+                 <button class="btn buy-product text-light" onclick="beli('hallo kak mau pesan undangan', 'minimalis theme 4')"><i class="bi bi-whatsapp"></i> Pesan</button>
+                </div>
+              </div>
+            </div>
+             <!-- end of card 5 -->
+
+             <!-- card ke 6 -->
+            <div class="col" data-aos="flip-right" data-aos-delay="500">
+              <div class="card">
+                <img src="asset/kece15.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <div class="d-grid gap-2 mb-1">
+                   <a class="btn testing mb-1 text-light" role="button" href="https://demo.invee.net/?template=traditional-4" style="background-color: #a67b5b;"><i class="bi bi-eye"></i><span class="ms-2">Lihat Contoh</span></a>
+                  </div>
+                </div>
+                <h5 class="card-title text-center mb-4">TRADISIONAL THEME  3</h5>
+                <div class="mb-3 d-flex justify-content-around">
+                  <h3 class="">Rp. 99.000</h3>
+                 <button class="btn buy-product text-light" onclick="beli('hallo kak mau pesan undangan', 'tradisional theme 3')"><i class="bi bi-whatsapp"></i> Pesan</button>
+                </div>
+              </div>
+            </div>
+             <!-- end of card 6 -->
+      </div>
+      </div>
+    </div>
+    <!-- last tema bagian 2 -->
+
+    <!-- tema bagian 3 -->
+    <div id="tema3">
+      <div class="container py-5">
+        <h1 class="text-center">TEMA CLASIC</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+          
+          <!-- card ke 1 -->
+          <div class="col" data-aos="flip-right" data-aos-delay="500">
+            <div class="card">
+              <img src="asset/kece16.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div class="d-grid gap-2 mb-1">
+                 <a class="btn testing mb-1 text-light" role="button" href="https://demo.invee.net/?template=floral-1" style="background-color: #a67b5b;"><i class="bi bi-eye"></i><span class="ms-2">Lihat Contoh</span></a>
+                </div>
+              </div>
+              <h5 class="card-title text-center mb-4">FRORAL THEME 5</h5>
+              <div class="mb-3 d-flex justify-content-around">
+                <h3 class="">Rp. 99.000</h3>
+               <button class="btn buy-product text-light" onclick="beli('hallo kak mau pesan undangan', 'froral theme 5')"><i class="bi bi-whatsapp"></i> Pesan</button>
+              </div>
+            </div>
+          </div>
+          <!-- end of card 1 -->
+
+          <!-- card ke 2 -->
+          <div class="col" data-aos="flip-right" data-aos-delay="500">
+            <div class="card">
+              <img src="asset/kece13.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div class="d-grid gap-2 mb-1">
+                 <a class="btn testing mb-1 text-light" role="button" href="https://demo.invee.net/?template=traditional-2" style="background-color: #a67b5b;"><i class="bi bi-eye"></i><span class="ms-2">Lihat Contoh</span></a>
+                </div>
+              </div>
+              <h5 class="card-title text-center mb-4">TRADISIONAL THEME 4</h5>
+              <div class="mb-3 d-flex justify-content-around">
+                <h3 class="">Rp. 99.000</h3>
+               <button class="btn buy-product text-light" onclick="beli('hallo kak mau pesan undangan', 'tradisional theme 4')"><i class="bi bi-whatsapp"></i> Pesan</button>
+              </div>
+            </div>
+          </div>
+          <!-- end of card 2 -->
+
+          <!-- card ke 3 -->
+          <div class="col" data-aos="flip-right" data-aos-delay="500">
+            <div class="card">
+              <img src="asset/kece17.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div class="d-grid gap-2 mb-1">
+                 <a class="btn testing mb-1 text-light" role="button" href="https://demo.invee.net/?template=wedding-anniversary-1" style="background-color: #a67b5b;"><i class="bi bi-eye"></i><span class="ms-2">Lihat Contoh</span></a>
+                </div>
+              </div>
+              <h5 class="card-title text-center mb-4">ANNIVERSARY THEME</h5>
+              <div class="mb-3 d-flex justify-content-around">
+                <h3 class="">Rp. 99.000</h3>
+               <button class="btn buy-product text-light" onclick="beli('hallo kak mau pesan undangan', 'anniversary theme')"><i class="bi bi-whatsapp"></i> Pesan</button>
+              </div>
+            </div>
+          </div>
+          <!-- end of card 3 -->
+
+          <!-- card ke 4 -->
+          <div class="col" data-aos="flip-right" data-aos-delay="500">
+            <div class="card">
+              <img src="asset/kece18.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div class="d-grid gap-2 mb-1">
+                 <a class="btn testing mb-1 text-light" role="button" href="https://demo.invee.net/?template=post-wedding-1" style="background-color: #a67b5b;"><i class="bi bi-eye"></i><span class="ms-2">Lihat Contoh</span></a>
+                </div>
+              </div>
+              <h5 class="card-title text-center mb-4">CLASIC THEME 1</h5>
+              <div class="mb-3 d-flex justify-content-around">
+                <h3 class="">Rp. 99.000</h3>
+               <button class="btn buy-product text-light" onclick="beli('hallo kak mau pesan undangan', 'clasic theme 1')"><i class="bi bi-whatsapp"></i> Pesan</button>
+              </div>
+            </div>
+          </div>
+          <!-- end of card 4 -->
+
+          <!-- card ke 5 -->
+          <div class="col" data-aos="flip-right" data-aos-delay="500">
+            <div class="card">
+              <img src="asset/islamic1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div class="d-grid gap-2 mb-1">
+                 <a class="btn testing mb-1 text-light" role="button" href="https://demo.invee.net/?template=islamic-1" style="background-color: #a67b5b;"><i class="bi bi-eye"></i><span class="ms-2">Lihat Contoh</span></a>
+                </div>
+              </div>
+              <h5 class="card-title text-center mb-4">ISLAMIC THEME</h5>
+              <div class="mb-3 d-flex justify-content-around">
+                <h3 class="">Rp. 99.000</h3>
+               <button class="btn buy-product text-light" onclick="beli('hallo kak mau pesan undangan', 'islamic theme')"><i class="bi bi-whatsapp"></i> Pesan</button>
+              </div>
+            </div>
+          </div>
+          <!-- end of card 5 -->
+
+          <!-- card ke 6 -->
+          <div class="col" data-aos="flip-right" data-aos-delay="500">
+            <div class="card">
+              <img src="asset/clasic1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div class="d-grid gap-2 mb-1">
+                 <a class="btn testing mb-1 text-light" role="button" href="https://demo.invee.net/?template=floral-4" style="background-color: #a67b5b;"><i class="bi bi-eye"></i><span class="ms-2">Lihat Contoh</span></a>
+                </div>
+              </div>
+              <h5 class="card-title text-center mb-4">CLASIC THEME 2</h5>
+              <div class="mb-3 d-flex justify-content-around">
+                <h3 class="">Rp. 99.000</h3>
+               <button class="btn buy-product text-light" onclick="beli('hallo kak mau pesan undangan', 'clacic theme 2')"><i class="bi bi-whatsapp"></i> Pesan</button>
+              </div>
+            </div>
+          </div>
+          <!-- end of card 6 -->
+    </div>
+    </div>
+  </div>
+  <!-- last tema bagian 3 -->
+
+
+      <!-- product -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="10"
+          d="M0,192L30,208C60,224,120,256,180,245.3C240,235,300,181,360,181.3C420,181,480,235,540,261.3C600,288,660,288,720,272C780,256,840,224,900,218.7C960,213,1020,235,1080,245.3C1140,256,1200,256,1260,250.7C1320,245,1380,235,1410,229.3L1440,224L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Projects -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form name="wpu-contact-form">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+
+              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffe5b4"
+          fill-opacity="10"
+          d="M0,128L30,149.3C60,171,120,213,180,224C240,235,300,213,360,192C420,171,480,149,540,160C600,171,660,213,720,197.3C780,181,840,107,900,101.3C960,96,1020,160,1080,197.3C1140,235,1200,245,1260,234.7C1320,224,1380,192,1410,176L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <footer class="text-white text-center pb-5">
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/sandhikagalih/" class="text-white fw-bold">Sandhika Galih</a></p>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+
+    <script>
+
+// function buy(product_name, product_price) {
+//   const message = `Halo saya mau beli ${product_name} - ${product_price}`
+//   const whatsapp = `https://wa.me/6281295801302?text=${message}`
+//   open(whatsapp, "_blank")
+// }
+
+// function chat() {
+//   buy();
+// }
+
+  function beli(namaProduct, harga) {
+    const message = `hallo kak saya mau beli ${namaProduct} - ${harga}` 
+    const whatsapp = `https://wa.me/6281295801302?text=${message}`
+    open(whatsapp, "_blank")
+  }
+
+function pembeli() {
+  beli();
+}
+
+      gsap.from(".img-thumbnail", { duration: 2, rotationX: 360 });
+      gsap.from(".navbar", { duration: 1.5, opacity: 0, y: "-100%", ease: "bounce" });
+      gsap.from(".display-4", { delay: 1, duration: 1, opacity: 0, x: "-10%" });
+
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", { delay: 1.5, duration: 2, text: "Lecturer | Content Creator" });
+
+      const galleryImages = document.querySelectorAll(".gallery-img");
+      const delayTimes = [0, 50, 100, 150, 200, 250, 300, 350, 400, 450];
+
+      function shuffleArray(array) {
+        for (var i = array.length - 1; i > 0; i--) {
+          var j = Math.floor(Math.random() * (i + 1));
+          var temp = array[i];
+          array[i] = array[j];
+          array[j] = temp;
+        }
+        return array;
+      }
+      const newDelay = shuffleArray(delayTimes);
+      galleryImages.forEach((img, i) => {
+        img.dataset.aos = "fade-up";
+        img.dataset.aosDelay = i * 50 + "";
+        // img.dataset.aosDelay = newDelay[i];
+      });
+
+      AOS.init({
+        once: true,
+        duration: 3000,
+      });
+    </script>
+
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbzjWwvjJihKz3-24SxEnHM5XFjNPgQd_dv3uD_fgjLSp_4AAXsC6IC4C_ECvWyLkGsuBg/exec";
+      const form = document.forms["wpu-contact-form"];
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        // ketika tombol submit diklik
+        // tampilkan tombol loading, hilangkan tombol kirim
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            // tampilkan tombol kirim, hilangkan tombol loading
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            // tampilkan alert
+            myAlert.classList.toggle("d-none");
+            // reset formnya
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".keyboard-box"), {
+        max: 35,
+        speed: 1000,
+        glare: true,
+      });
+    </script>
+  </body>
+</html>
